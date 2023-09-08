@@ -1,0 +1,41 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+  
+    .list{
+        width: 50%;
+        height: 80px;
+        display: flex;
+       
+      
+        justify-content: center;
+        .ul{
+            display: flex;
+            list-style-type: none;
+            height: 80px;
+            align-items: center;
+           
+            .link{
+                text-decoration: none;
+                margin-right: 50px;
+                color: white;
+                transition: all 1s ease;
+                transform: 0.3s;
+                &:hover{
+                    color: red;
+                  
+                }
+            }
+        }
+    }
+
+ 
+    
+
+
+    
+   
+  
+   
