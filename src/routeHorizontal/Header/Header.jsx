@@ -3,11 +3,7 @@ import "./header.scss"
 import { useState } from "react";
 
 export default function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+ 
   return (
     <div className='header'>
         <div className="logo">

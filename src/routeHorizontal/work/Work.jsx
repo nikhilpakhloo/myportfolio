@@ -18,8 +18,8 @@ export default function Work() {
 
         </div>
         <div className="card">
-          <h5>Coming Soon</h5>
-          {/* <a href="" target="_blank"> <button >Check Out</button></a> */}
+          <h5>QRCodeGenerator-reactjs</h5>
+          <a href="https://qrcode-delta-lyart.vercel.app/" target="_blank"> <button >Check Out</button></a>
          
 
         </div>
