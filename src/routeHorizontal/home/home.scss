@@ -1,68 +1,69 @@
-.home{
-    height: calc(100vh - 80px);
-    width: 100%;
-   
+.home {
+  height: calc(100vh - 80px);
+  width: 100%;
+
+  display: flex;
+
+  .mypic {
+    flex: 1;
     display: flex;
+    justify-content: end;
+    align-items: center;
 
-    .mypic{
-        flex: 1;
-        display: flex;
-        justify-content: end;
-        align-items: center;
-       
-       img{
-            width: 450px;
-            height: 450px;
-            border-radius: 50%;
-            object-fit: cover;
-            filter: brightness(70%);
-            cursor: pointer;
-            
+    img {
+      width: 450px;
+      height: 450px;
+      border-radius: 50%;
+      object-fit: cover;
+      filter: brightness(60%);
+      cursor: pointer;
 
-        }
 
     }
-    .mybio{
-        flex: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-       
-       .bio{
-        width: 60%;
-       
-      
-        span{
-            color: red;
-        }
-       }
-    }
-}
-@media screen and (max-width: 600px) {
-    .home {
-      height: auto;
-      flex-direction: column;
-      align-items: center;
-      padding: 20px; 
-  
-      .mypic {
-        flex: none; 
-        margin-bottom: 20px; 
-  
-        img {
-          width: 300px; 
-          height: 300px;
-        }
-      }
-  
-      .mybio {
-        flex: none;
-        text-align: center;
-  
-        .bio {
-          width: 100%; 
-        }
+
+  }
+
+  .mybio {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .bio {
+      width: 60%;
+
+
+      span {
+        color: red;
       }
     }
   }
-  
+}
+
+@media screen and (max-width: 600px) {
+  .home {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+    .mypic {
+      flex: none;
+      margin-bottom: 20px;
+
+      img {
+        width: 300px;
+        height: 300px;
+      }
+    }
+
+    .mybio {
+      flex: none;
+      text-align: center;
+
+      .bio {
+        width: 100%;
+      }
+    }
+  }
+}
