@@ -21,7 +21,6 @@ ReactDOM.render(
         <Route path="/contact" element={<Contact />} />
         <Route path="/work" element={<Work />} />
       </Routes>
-      <App />
     </BrowserRouter>
   </React.StrictMode>,
   root

@@ -29,6 +29,20 @@ export default function Work() {
        
 
         </div>
+        <div className="card">
+          <h5>Nextjs-CRUDAPP</h5>
+          <a href="https://nextjs-crud-beta.vercel.app/" target="_blank"> <button>Check Out</button></a>
+       
+
+        </div>
+        <div className="card">
+          <h5>ZohoCRM integration</h5>
+          <a href="https://zoho-crm-crud.vercel.app/" target="_blank"> <button>Check Out</button></a>
+       
+
+        </div>
+      
+       
       </div>
    
     </div>

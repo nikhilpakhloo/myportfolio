@@ -8,7 +8,7 @@ export default function Home() {
 
   useEffect(()=>{
     const typewriter = new Typewriter(textRef.current,{
-      strings:['ReactJs', 'HTML/CSS', 'AndroidStudio(Kotlin)','PHP'],
+      strings:['ReactJs', 'HTML/CSS', 'Nextjs','AndroidStudio(Kotlin)','PHP', ],
       autoStart:true,
       loop: true,
       cursor: "",
