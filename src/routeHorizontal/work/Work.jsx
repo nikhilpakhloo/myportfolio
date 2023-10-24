@@ -6,6 +6,13 @@ export default function Work() {
       <div className="cardcontainer">
         <div className="card">
 
+          <h5>Zomato Page -Reactjs</h5>
+
+          <a href="https://zomato-liart.vercel.app/" target="_blank"> <button >Check Out</button></a>
+
+        </div>
+        <div className="card">
+
           <h5>Weather App -Reactjs</h5>
 
           <a href="https://weather-app-alpha-ivory.vercel.app/" target="_blank"> <button >Check Out</button></a>

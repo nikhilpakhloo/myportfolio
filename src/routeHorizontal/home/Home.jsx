@@ -22,7 +22,7 @@ export default function Home() {
     <div className='home'>
       <div className="mypic">
         <div className="pic">
-        <img src="./assets/mypic.jpg" alt="" />
+        <img src="./assets/nik.jpg" alt="" />
         </div>
       </div>
       <div className="mybio">

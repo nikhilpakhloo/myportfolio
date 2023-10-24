@@ -15,11 +15,9 @@ export default function Header() {
         <li>
           <Link className="route" to="/">Home</Link>
         </li>
+     
         <li>
-          <Link className="route" to="/about">About</Link>
-        </li>
-        <li>
-          <Link className="route" to="/work">Work</Link>
+          <Link className="route" to="/work">My Work</Link>
 
         </li>
         <li>
